@@ -6,6 +6,7 @@ Struggling to translate your ideas into complex SQL queries? This Streamlit app 
 ## Features:
 
 **Natural Language Power:** No more deciphering cryptic SQL syntax. Describe your query, and the app does the heavy lifting.
+
 **Streamlit Simplicity:** The intuitive interface makes using this app a breeze. Just type and see the results.
 Getting Started:
 
