@@ -15,4 +15,3 @@ Fire it Up! Have Python and pip? Great! Install dependencies with pip install st
 
 ### That's It! Now you can write SQL queries like a pro, even if you're a beginner.
 
-**Demo :** https://sql-query-generator-app.streamlit.app/
