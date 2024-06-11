@@ -1,4 +1,4 @@
-# SQL-Query-Generator
+# QueriX
 ## Description:
 
 Struggling to translate your ideas into complex SQL queries? This Streamlit app is your secret weapon! Just describe what you want to achieve in plain English, and watch it magically generate the corresponding SQL code. Say goodbye to syntax errors and hello to effortless database interactions.
