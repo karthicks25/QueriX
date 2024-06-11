@@ -78,7 +78,7 @@ def logout():
     session.pop('email',None)
     return redirect('/login')
 
-GOOGLE_API_KEY = "AIzaSyDpTEiFa2eA8W4bByFMNijAjkRPl3yR_UI"
+GOOGLE_API_KEY = ""
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
