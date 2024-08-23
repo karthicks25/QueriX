@@ -2,8 +2,6 @@ from flask import Flask, request,render_template, redirect,session
 from flask_sqlalchemy import SQLAlchemy
 import bcrypt
 import google.generativeai as genai
-import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
@@ -78,7 +76,7 @@ def logout():
     session.pop('email',None)
     return redirect('/login')
 
-GOOGLE_API_KEY = ""
+GOOGLE_API_KEY = "AIzaSyAoE1oJG5NqspNjM9WdhFQkbLk1ujGvqsQ"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
